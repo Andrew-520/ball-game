@@ -95,7 +95,7 @@
     function drawPaddle() {
         ctx.beginPath();
         ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-        ctx.fillStyle = "#0095DD";
+        ctx.fillStyle = "#a3e89e";
         ctx.fill();
         ctx.closePath();
     }
@@ -149,7 +149,7 @@
             else {
                 lives--;
                 if(!lives) {
-                    alert("GAME OVER");
+                    alert("GAME OVER BETTER LUCK NEXT TIME😔");
                     document.location.reload();
                 }
                 else {
