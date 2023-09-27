@@ -149,7 +149,7 @@
             else {
                 lives--;
                 if(!lives) {
-                    alert("GAME OVER BETTER LUCK daiel is a BUMBERCLAT!!!😔");
+                    alert("GAME OVER BETTER LUCK daniel is a BUMBERCLAT!!!😔");
                     document.location.reload();
                 }
                 else {
