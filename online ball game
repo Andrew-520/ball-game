@@ -76,7 +76,7 @@
                         b.status = 0;
                         score++;
                         if(score == brickRowCount*brickColumnCount) {
-                            alert("YOU WIN, CONGRATS!");
+                            alert("YOU WIN, Daiel akilade is a bumberclat!!");
                             document.location.reload();
                         }
                     }
